@@ -1,0 +1,4 @@
+# Cloudflare Pages configuration
+# This file exists to prevent Wrangler from trying to parse vite.config.js during deploy
+# The actual build is handled by Vite, not Wrangler
+pages_build_output_dir = "dist"
